@@ -70,7 +70,7 @@
   {
     "id": 10906,
     "Key": "r31",
-    "enUS": "Jah Rune",
+    "enUS": "\n~         Jah Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
     "zhTW": "符文：喬",
     "deDE": "[fs]Jah-Rune",
     "esES": "Runa Jah",
@@ -121,7 +121,7 @@
   {
     "id": 20440,
     "Key": "r33",
-    "enUS": "Zod Rune",
+    "enUS": "\n~         Zod Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
     "zhTW": "符文：薩德",
     "deDE": "[fs]Zod-Rune",
     "esES": "Runa Zod",
@@ -138,7 +138,7 @@
   {
     "id": 20441,
     "Key": "r32",
-    "enUS": "Cham Rune",
+    "enUS": "\n~         Cham Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
     "zhTW": "符文：查姆",
     "deDE": "[fs]Cham-Rune",
     "esES": "Runa Cham",
@@ -155,7 +155,7 @@
   {
     "id": 20443,
     "Key": "r30",
-    "enUS": "Ber Rune",
+    "enUS": "\n~         Ber Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
     "zhTW": "符文：貝",
     "deDE": "[fs]Ber-Rune",
     "esES": "Runa Ber",
@@ -172,7 +172,7 @@
   {
     "id": 20444,
     "Key": "r29",
-    "enUS": "Sur Rune",
+    "enUS": "\n~         Sur Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
     "zhTW": "符文：瑟",
     "deDE": "[fs]Sur-Rune",
     "esES": "Runa Sur",
@@ -189,7 +189,7 @@
   {
     "id": 20445,
     "Key": "r28",
-    "enUS": "Lo Rune",
+    "enUS": "\n~         Lo  Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
     "zhTW": "符文：羅",
     "deDE": "[fs]Lo-Rune",
     "esES": "Runa Lo",
@@ -206,7 +206,7 @@
   {
     "id": 20446,
     "Key": "r27",
-    "enUS": "Ohm Rune",
+    "enUS": "\n~         Ohm Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
     "zhTW": "符文：歐姆",
     "deDE": "[fs]Ohm-Rune",
     "esES": "Runa Ohm",
@@ -223,7 +223,7 @@
   {
     "id": 20447,
     "Key": "r26",
-    "enUS": "Vex Rune",
+    "enUS": "\n~         Vex Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
     "zhTW": "符文：伐克斯",
     "deDE": "[fs]Vex-Rune",
     "esES": "Runa Vex",
@@ -240,7 +240,7 @@
   {
     "id": 20448,
     "Key": "r25",
-    "enUS": "Gul Rune",
+    "enUS": "\n~         Gul Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
     "zhTW": "符文：古爾",
     "deDE": "[fs]Gul-Rune",
     "esES": "Runa Gul",
@@ -257,7 +257,7 @@
   {
     "id": 20449,
     "Key": "r24",
-    "enUS": "Ist Rune",
+    "enUS": "\n~         Ist Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
     "zhTW": "符文：伊司特",
     "deDE": "[fs]Ist-Rune",
     "esES": "Runa Ist",
@@ -274,7 +274,7 @@
   {
     "id": 20450,
     "Key": "r23",
-    "enUS": "Mal Rune",
+    "enUS": "\n~         Mal Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
     "zhTW": "符文：馬爾",
     "deDE": "[fs]Mal-Rune",
     "esES": "Runa Mal",
@@ -291,7 +291,7 @@
   {
     "id": 20451,
     "Key": "r22",
-    "enUS": "Um Rune",
+    "enUS": "\n~         Um  Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
     "zhTW": "符文：烏姆",
     "deDE": "[fs]Um-Rune",
     "esES": "Runa Um",
@@ -308,7 +308,7 @@
   {
     "id": 20452,
     "Key": "r21",
-    "enUS": "Pul Rune",
+    "enUS": "\n~         Pul Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
     "zhTW": "符文：普爾",
     "deDE": "[fs]Pul-Rune",
     "esES": "Runa Pul",
@@ -325,7 +325,7 @@
   {
     "id": 20453,
     "Key": "r20",
-    "enUS": "Lem Rune",
+    "enUS": "\n~         Lem Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
     "zhTW": "符文：藍姆",
     "deDE": "[fs]Lem-Rune",
     "esES": "Runa Lem",
