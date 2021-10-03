@@ -213,7 +213,7 @@ item_bootsmetal	210	item_bootsmetal_hd	sfx/items_sd	item\bootsmetal.flac	0	0	0	0
 item_bow	211	item_bow_hd	sfx/items_sd	item\bow.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_cap	212	item_cap_hd	sfx/items_sd	item\cap.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_chainarmor	213	item_chainarmor_hd	sfx/items_sd	item\chainarmor.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
-item_charm	214	item_charm_hd	sfx/items_sd	item\charm.flac	0	0	0	0	0	200	200	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
+item_charm	214	item_charm_hd	sfx/items_sd	item\charm.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_crossbow	215	item_crossbow_hd	sfx/items_sd	item\xbow.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_flippy	216	item_flippy_hd1	sfx/items_sd	item\flippy.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_gem	217	item_gem_hd	sfx/items_sd	item\gem.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
@@ -225,7 +225,7 @@ item_head	222	item_head_hd	sfx/items_sd	item\head.flac	0	0	0	0	0	255	255	100	100
 item_helm	223	item_helm_hd	sfx/items_sd	item\helm.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_herb	224	item_herb_hd	sfx/items_sd	item\herb.flac	0	0	0	0	0	200	200	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_javelins	225	item_javelins_hd	sfx/items_sd	item\javelins.flac	0	0	0	0	0	240	240	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
-item_jewel	226	item_jewel_hd	sfx/items_sd	item\jewel.flac	0	0	0	0	0	200	200	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
+item_jewel	226	item_jewel_hd	sfx/items_sd	item\jewel.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_key	227	item_key_hd	sfx/items_sd	item\key.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_key_used	228	item_key_used_hd	sfx/items_sd	item\keyused.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_largemetalweapon	229	item_largemetalweapon_hd	sfx/items_sd	item\largemetalweapon.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
@@ -241,7 +241,7 @@ item_potion_drink	238	item_potion_drink_hd1	sfx/items_sd	item\potiondrink.flac	0
 item_quiver	239	item_quiver_hd	sfx/items_sd	item\quiver.flac	0	0	0	0	0	240	240	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_rare	240	item_rare_hd	sfx/items_sd	item\rare.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_ring	241	item_ring_hd	sfx/items_sd	item\ring.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
-item_rune	242	item_rune_hd	sfx/items_sd	item\rune.flac	0	0	0	0	0	200	200	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
+item_rune	242	item_rune_hd	sfx/items_sd	item\rune.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_scroll	243	item_scroll_hd	sfx/items_sd	item\scroll.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_smallmetalweapon	244	item_smallmetalweapon_hd	sfx/items_sd	item\smallmetalweapon.flac	0	0	0	0	0	240	240	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_staff	245	item_staff_hd	sfx/items_sd	item\staff.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
