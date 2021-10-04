@@ -212,11 +212,11 @@ item_bootschain	209	item_bootschain_hd	sfx/items_sd	item\bootschain.flac	0	0	0	0
 item_bootsmetal	210	item_bootsmetal_hd	sfx/items_sd	item\bootsmetal.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_bow	211	item_bow_hd	sfx/items_sd	item\bow.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_cap	212	item_cap_hd	sfx/items_sd	item\cap.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
-item_chainarmor	213	item_chainarmor_hd	sfx/items_sd	item\chainarmor.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
+item_chainarmor	213	item_chainarmor_hd	sfx/items_sd	item\chainarmor.flac	0	0	0	0	0	150	150	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_charm	214	item_charm_hd	sfx/items_sd	item\charm.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_crossbow	215	item_crossbow_hd	sfx/items_sd	item\xbow.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_flippy	216	item_flippy_hd1	sfx/items_sd	item\flippy.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
-item_gem	217	item_gem_hd	sfx/items_sd	item\gem.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
+item_gem	217	item_gem_hd	sfx/items_sd	item\gem.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_gloves	218	item_gloves_hd	sfx/items_sd	item\gloves.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_gloveschain	219	item_gloveschain_hd	sfx/items_sd	item\gloveschain.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_glovesmetal	220	item_glovesmetal_hd	sfx/items_sd	item\glovesmetal.flac	0	0	0	0	0	220	220	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
