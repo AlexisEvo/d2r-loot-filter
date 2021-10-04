@@ -12480,7 +12480,7 @@
   {
     "id": 11166,
     "Key": "bet",
-    "enUS": "Burning Essence of Terror",
+    "enUS": "                         \n     Burning Essence of Terror     \n                         ",
     "zhTW": "燃燒的恐懼精華",
     "deDE": "Brennende Essenz des Schreckens",
     "esES": "Esencia del terror ardiente",
@@ -12497,7 +12497,7 @@
   {
     "id": 11167,
     "Key": "fed",
-    "enUS": "Festering Essence of Destruction",
+    "enUS": "                         \n     Festering Essence of Destruction     \n                         ",
     "zhTW": "潰爛的毀滅精華",
     "deDE": "Eiternde Essenz der Zerstörung",
     "esES": "Esencia de la destrucción infecta",
