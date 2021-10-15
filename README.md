@@ -19,6 +19,16 @@ PRs welcome. Open an issue or join us on [Discord](https://discord.gg/aajDbCNc9x
 
 someone has shown me the way i pwomise this will get easier to install
 
+# FAQ
+
+* It didn't install right -- not a question, but you did something wrong, refer to screenshots or use the MPQ from Discord (MPQs will eventually be available under Releases)
+* Can X/Y/Z be done? -- probably not, if you're looking for item rarity it isn't possible
+* Does this slow down act switching? -- yes, if you use the -direct -txt method. Get a faster SSD or use the MPQ from Discord.
+* How can I make edits? -- view the commit history on top of the page and read how I'm making changes.
+* How do I edit MPQs? -- http://www.zezula.net/en/mpq/download.html
+* My game crashes often, is it the loot filter? -- I run 5x clients, 1x loot filter 4x vanilla. All crash equally. Blame Blizzard.
+
+
 # Donations
 
 I kindly appreciate the warm thoughts! I am living relatively comfortable. If you want to pay me back, consider donating to the [HRC](https://give.hrc.org/page/62714/donate/1?locale=en-US), the [Internet Archive](https://archive.org/donate/), the [EFF](https://supporters.eff.org/donate/join-4), or the [ACLU](https://action.aclu.org/give/now). These are all foundations I value far more than my own efforts. If you do, please send me a receipt -- knowing one of these foundations has a couple extra bucks makes anything I do worthwhile.
