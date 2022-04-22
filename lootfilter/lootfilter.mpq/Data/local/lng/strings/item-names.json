@@ -4795,8 +4795,8 @@
   },
   {
     "id": 2212,
-    "Key": "\n   Amulet   \n",
-    "enUS": "\nAmulet",
+    "Key": "amu",
+    "enUS": "\n   Amulet   \n",
     "zhTW": "護身符",
     "deDE": "[ns]Amulett",
     "esES": "[ms]Amuleto",
@@ -5561,7 +5561,7 @@
   {
     "id": 2266,
     "Key": "hp1",
-    "enUS": "",
+    "enUS": "ÿc1HP",
     "zhTW": "弱效生命藥水",
     "deDE": "schwacher Heiltrank",
     "esES": "Poción de salud menor",
@@ -5578,7 +5578,7 @@
   {
     "id": 2267,
     "Key": "hp2",
-    "enUS": "",
+    "enUS": "ÿc1HP",
     "zhTW": "輕效生命藥水",
     "deDE": "leichter Heiltrank",
     "esES": "Poción de salud ligera",
@@ -5595,7 +5595,7 @@
   {
     "id": 2268,
     "Key": "hp3",
-    "enUS": "",
+    "enUS": "ÿc1HP",
     "zhTW": "生命藥水",
     "deDE": "Heiltrank",
     "esES": "Poción de salud",
@@ -5612,7 +5612,7 @@
   {
     "id": 2269,
     "Key": "hp4",
-    "enUS": "",
+    "enUS": "ÿc1HP",
     "zhTW": "強效生命藥水",
     "deDE": "guter Heiltrank",
     "esES": "Poción de salud superior",
@@ -5646,7 +5646,7 @@
   {
     "id": 2271,
     "Key": "mp1",
-    "enUS": "",
+    "enUS": "ÿc3MP",
     "zhTW": "弱效法力藥水",
     "deDE": "schwacher Manatrank",
     "esES": "Poción de maná menor",
@@ -5663,7 +5663,7 @@
   {
     "id": 2272,
     "Key": "mp2",
-    "enUS": "",
+    "enUS": "ÿc3MP",
     "zhTW": "輕效法力藥水",
     "deDE": "leichter Manatrank",
     "esES": "Poción de maná ligera",
@@ -5680,7 +5680,7 @@
   {
     "id": 2273,
     "Key": "mp3",
-    "enUS": "",
+    "enUS": "ÿc3MP",
     "zhTW": "法力藥水",
     "deDE": "Manatrank",
     "esES": "Poción de maná",
@@ -5697,7 +5697,7 @@
   {
     "id": 2274,
     "Key": "mp4",
-    "enUS": "",
+    "enUS": "ÿc3MP",
     "zhTW": "強效法力藥水",
     "deDE": "guter Manatrank",
     "esES": "Poción de maná superior",
@@ -16696,7 +16696,7 @@
   {
     "id": 20435,
     "Key": "cm1",
-    "enUS": "     \n     ÿc1Small Charmÿc3     \n     ",
+    "enUS": "\n     Small Charm     \n",
     "zhTW": "小型咒符",
     "deDE": "[ms]Kleiner Zauber",
     "esES": "[ms]Dije pequeño",
@@ -16730,7 +16730,7 @@
   {
     "id": 20437,
     "Key": "cm3",
-    "enUS": "     \n     ÿc1Grand Charmÿc3     \n     ",
+    "enUS": "\n     Grand Charm     \n",
     "zhTW": "特大咒符",
     "deDE": "[ms]Riesenzauber",
     "esES": "[ms]Dije enorme",
