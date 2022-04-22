@@ -20,5 +20,4 @@ This is a mod for D2R that makes it easier to quickly discern which items you wo
 * Does this slow down act switching? -- yes, if you use the -direct -txt method. Get a faster SSD or use the MPQ.
 * How can I make edits? -- view the commit history on top of the page and read how I'm making changes.
 * How do I edit MPQs? -- http://www.zezula.net/en/mpq/download.html
-* My game crashes often, is it the loot filter? -- I run 5x clients, 1x loot filter 4x vanilla. All crash equally. Blame Blizzard.
-
+* My game crashes often, is it the loot filter? -- All game clients crash equally.
