@@ -1,22 +1,17 @@
 # A mediocre purely mod-based D2:R loot filter
 
-This is a mod for D2R that makes it easier to quickly discern which items you would want to pick up, essentially implementing a pseudo loot filter. 
+This is a mod for D2R that makes it easier to quickly discern which items you would want to pick up, essentially implementing a pseudo loot filter. Items cannot be filtered however you can edit the localization of text for every 'base' item. This means you can prevent all "Giant Axe" from cluttering the ground by setting an empty name but cannot filter normal <> unique. Also some names like greater health potion can be reduded to single characters. This will be extremely helpful for trav runs. You can also swap the text out so that it is larger or like in PD2 S1 make some items a large box to click.
 
-![img1](https://i.imgur.com/cydb7qL.jpg)
-
-![img1](https://i.imgur.com/BJJzwX3.jpeg)
-
-# Disclaimer
-
-Although this strictly uses the game's built in modding support, we do not know Blizzard's stance on using mods on battle.net. The nature of D2 modding means that only visual mods can be used online, which is what this mod is. If Blizzard were opposed to it I believe they'd disable modding support online entirely. If I receive a response or contact from a Blizzard employee, I will happily take down all copies of the mod. 
 
 # Installation
 
 1. Download the repo as a zip using the Code button at the top of the page
 2. Create a directory in your D2 installation folder named "mods", copy the lootfilter directory into this folder. 
-3. If done correctly, the directory layout should match https://i.imgur.com/hZAvJI6.png
-4. Edit game settings in your battle.net launcher and add "-mod lootfilter -txt" to your parameters, https://i.imgur.com/LG9Fpn2.png
-5. Launch the game and enjoy a more pleasant D2R experience 🥰
+3. If done correctly, the directory layout should match
+4. ![img1](https://i.imgur.com/hZAvJI6.png)
+5. Edit game settings in your battle.net launcher and add "-mod lootfilter -txt" to your parameters
+6. ![img1](https://i.imgur.com/LG9Fpn2.png)
+7. Launch the game and enjoy a more pleasant D2R experience 🥰
 
 # FAQ
 
