@@ -8,10 +8,10 @@ This is a mod for D2R that makes it easier to quickly discern which items you wo
 1. Download the repo as a zip using the Code button at the top of the page
 2. Create a directory in your D2 installation folder named "mods", copy the lootfilter directory into this folder. 
 3. If done correctly, the directory layout should match
-4. ![img1](https://i.imgur.com/hZAvJI6.png)
-5. Edit game settings in your battle.net launcher and add "-mod lootfilter -txt" to your parameters
-6. ![img1](https://i.imgur.com/LG9Fpn2.png)
-7. Launch the game and enjoy a more pleasant D2R experience 🥰
+![img1](https://i.imgur.com/hZAvJI6.png)
+4. Edit game settings in your battle.net launcher and add "-mod lootfilter -txt" to your parameters
+![img1](https://i.imgur.com/LG9Fpn2.png)
+5. Launch the game and enjoy a more pleasant D2R experience 🥰
 
 # FAQ
 
