@@ -1,6 +1,6 @@
 # A mediocre purely mod-based D2:R loot filter
 
-This is a mod for D2R that makes it easier to quickly discern which items you would want to pick up, essentially implementing a pseudo loot filter. Items cannot be filtered however you can edit the localization of text for every 'base' item. This means you can prevent all "Giant Axe" from cluttering the ground by setting an empty name but cannot filter normal <> unique. Also some names like greater health potion can be reduded to single characters. This will be extremely helpful for trav runs. You can also swap the text out so that it is larger or like in PD2 S1 make some items a large box to click.
+This is a mod for D2R that makes it easier to quickly discern which items you would want to pick up, essentially implementing a pseudo loot filter. Items cannot be filtered however you can edit the localization of text for every 'base' item. This means you can prevent all "Giant Axe" from cluttering the ground by setting an empty name but cannot filter normal <> unique. Also some names like greater health potion can be reduded to single characters. This will be extremely helpful for trav runs. You can also swap the text out so that it is larger or like in PD2 S1 make some items a large box to click. There are two choices, one hides no equipable items and the other is strict.
 
 
 # Installation
@@ -9,7 +9,7 @@ This is a mod for D2R that makes it easier to quickly discern which items you wo
 2. Create a directory in your D2 installation folder named "mods", copy the lootfilter directory into this folder. 
 3. If done correctly, the directory layout should match
 ![img1](https://i.imgur.com/hZAvJI6.png)
-4. Edit game settings in your battle.net launcher and add "-mod lootfilter -txt" to your parameters
+4. Edit game settings in your battle.net launcher and add "-mod lootfilter -txt" to your parameters or "-mod lootfilterstrict -txt"
 ![img1](https://i.imgur.com/LG9Fpn2.png)
 5. Launch the game and enjoy a more pleasant D2R experience 🥰
 
