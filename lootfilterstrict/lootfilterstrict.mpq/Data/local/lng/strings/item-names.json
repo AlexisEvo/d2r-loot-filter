@@ -5051,7 +5051,7 @@
   {
     "id": 2231,
     "Key": "box",
-    "enUS": "Horadric Cube",
+    "enUS": "Loot Filter Strict v1.1.1\nHoradric Cube",
     "zhTW": "赫拉迪姆方塊",
     "deDE": "Horadrimwürfel",
     "esES": "Cubo horádrico",
@@ -5561,7 +5561,7 @@
   {
     "id": 2266,
     "Key": "hp1",
-    "enUS": "ÿc1HP",
+    "enUS": "ÿc1HP1",
     "zhTW": "弱效生命藥水",
     "deDE": "schwacher Heiltrank",
     "esES": "Poción de salud menor",
@@ -5578,7 +5578,7 @@
   {
     "id": 2267,
     "Key": "hp2",
-    "enUS": "ÿc1HP",
+    "enUS": "ÿc1HP2",
     "zhTW": "輕效生命藥水",
     "deDE": "leichter Heiltrank",
     "esES": "Poción de salud ligera",
@@ -5595,7 +5595,7 @@
   {
     "id": 2268,
     "Key": "hp3",
-    "enUS": "ÿc1HP",
+    "enUS": "ÿc1HP3",
     "zhTW": "生命藥水",
     "deDE": "Heiltrank",
     "esES": "Poción de salud",
@@ -5612,7 +5612,7 @@
   {
     "id": 2269,
     "Key": "hp4",
-    "enUS": "ÿc1HP",
+    "enUS": "ÿc1HP4",
     "zhTW": "強效生命藥水",
     "deDE": "guter Heiltrank",
     "esES": "Poción de salud superior",
@@ -5629,7 +5629,7 @@
   {
     "id": 2270,
     "Key": "hp5",
-    "enUS": "ÿc1HP",
+    "enUS": "ÿc1HP5",
     "zhTW": "特效生命藥水",
     "deDE": "starker Heiltrank",
     "esES": "Superpoción de salud",
@@ -5646,7 +5646,7 @@
   {
     "id": 2271,
     "Key": "mp1",
-    "enUS": "ÿc3MP",
+    "enUS": "ÿc3MP1",
     "zhTW": "弱效法力藥水",
     "deDE": "schwacher Manatrank",
     "esES": "Poción de maná menor",
@@ -5663,7 +5663,7 @@
   {
     "id": 2272,
     "Key": "mp2",
-    "enUS": "ÿc3MP",
+    "enUS": "ÿc3MP2",
     "zhTW": "輕效法力藥水",
     "deDE": "leichter Manatrank",
     "esES": "Poción de maná ligera",
@@ -5680,7 +5680,7 @@
   {
     "id": 2273,
     "Key": "mp3",
-    "enUS": "ÿc3MP",
+    "enUS": "ÿc3MP3",
     "zhTW": "法力藥水",
     "deDE": "Manatrank",
     "esES": "Poción de maná",
@@ -5697,7 +5697,7 @@
   {
     "id": 2274,
     "Key": "mp4",
-    "enUS": "ÿc3MP",
+    "enUS": "ÿc3MP4",
     "zhTW": "強效法力藥水",
     "deDE": "guter Manatrank",
     "esES": "Poción de maná superior",
@@ -5714,7 +5714,7 @@
   {
     "id": 2275,
     "Key": "mp5",
-    "enUS": "ÿc3MP",
+    "enUS": "ÿc3MP5",
     "zhTW": "特效法力藥水",
     "deDE": "starker Manatrank",
     "esES": "Superpoción de maná",
