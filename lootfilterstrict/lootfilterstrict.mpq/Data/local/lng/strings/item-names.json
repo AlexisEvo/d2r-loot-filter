@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": 1060,
     "Key": "qf1",
@@ -5459,7 +5459,7 @@
   {
     "id": 2259,
     "Key": "glr",
-    "enUS": "ÿc1★ÿc0 F Ruby",
+    "enUS": "ÿc1@",
     "zhTW": "無瑕紅寶石",
     "deDE": "makelloser Rubin",
     "esES": "Rubí sin defectos",
@@ -5476,7 +5476,7 @@
   {
     "id": 2260,
     "Key": "gpr",
-    "enUS": "ÿc1★ÿc0 P Ruby",
+    "enUS": "ÿc1★PRuby★",
     "zhTW": "完美紅寶石",
     "deDE": "perfekter Rubin",
     "esES": "Rubí perfecto",
@@ -5561,7 +5561,7 @@
   {
     "id": 2266,
     "Key": "hp1",
-    "enUS": "ÿc1HP1",
+    "enUS": "ÿc1HP",
     "zhTW": "弱效生命藥水",
     "deDE": "schwacher Heiltrank",
     "esES": "Poción de salud menor",
@@ -5578,7 +5578,7 @@
   {
     "id": 2267,
     "Key": "hp2",
-    "enUS": "ÿc1HP2",
+    "enUS": "ÿc1HP",
     "zhTW": "輕效生命藥水",
     "deDE": "leichter Heiltrank",
     "esES": "Poción de salud ligera",
@@ -5595,7 +5595,7 @@
   {
     "id": 2268,
     "Key": "hp3",
-    "enUS": "ÿc1HP3",
+    "enUS": "ÿc1HP",
     "zhTW": "生命藥水",
     "deDE": "Heiltrank",
     "esES": "Poción de salud",
@@ -5612,7 +5612,7 @@
   {
     "id": 2269,
     "Key": "hp4",
-    "enUS": "ÿc1HP4",
+    "enUS": "ÿc1HP",
     "zhTW": "強效生命藥水",
     "deDE": "guter Heiltrank",
     "esES": "Poción de salud superior",
@@ -5629,7 +5629,7 @@
   {
     "id": 2270,
     "Key": "hp5",
-    "enUS": "ÿc1HP5",
+    "enUS": "ÿc1HP",
     "zhTW": "特效生命藥水",
     "deDE": "starker Heiltrank",
     "esES": "Superpoción de salud",
@@ -5646,7 +5646,7 @@
   {
     "id": 2271,
     "Key": "mp1",
-    "enUS": "ÿc3MP1",
+    "enUS": "ÿc3MP",
     "zhTW": "弱效法力藥水",
     "deDE": "schwacher Manatrank",
     "esES": "Poción de maná menor",
@@ -5663,7 +5663,7 @@
   {
     "id": 2272,
     "Key": "mp2",
-    "enUS": "ÿc3MP2",
+    "enUS": "ÿc3MP",
     "zhTW": "輕效法力藥水",
     "deDE": "leichter Manatrank",
     "esES": "Poción de maná ligera",
@@ -5680,7 +5680,7 @@
   {
     "id": 2273,
     "Key": "mp3",
-    "enUS": "ÿc3MP3",
+    "enUS": "ÿc3MP",
     "zhTW": "法力藥水",
     "deDE": "Manatrank",
     "esES": "Poción de maná",
@@ -5697,7 +5697,7 @@
   {
     "id": 2274,
     "Key": "mp4",
-    "enUS": "ÿc3MP4",
+    "enUS": "ÿc3MP",
     "zhTW": "強效法力藥水",
     "deDE": "guter Manatrank",
     "esES": "Poción de maná superior",
@@ -5714,7 +5714,7 @@
   {
     "id": 2275,
     "Key": "mp5",
-    "enUS": "ÿc3MP5",
+    "enUS": "ÿc3MP",
     "zhTW": "特效法力藥水",
     "deDE": "starker Manatrank",
     "esES": "Superpoción de maná",
@@ -15149,7 +15149,7 @@
   {
     "id": 20337,
     "Key": "ci0",
-    "enUS": "\n   Circlet   \n",
+    "enUS": "Circlet",
     "zhTW": "頭環",
     "deDE": "[ms]Reif",
     "esES": "[fs]Aureola",
@@ -15166,7 +15166,7 @@
   {
     "id": 20338,
     "Key": "ci1",
-    "enUS": "\n   Coronet   \n",
+    "enUS": "Coronet",
     "zhTW": "寶冠",
     "deDE": "[ns]Krönchen",
     "esES": "[fs]Coronilla",
@@ -15183,7 +15183,7 @@
   {
     "id": 20339,
     "Key": "ci2",
-    "enUS": "\n   Tiara   \n",
+    "enUS": "Tiara",
     "zhTW": "頭冠",
     "deDE": "[fs]Tiara",
     "esES": "[fs]Tiara",
@@ -15200,7 +15200,7 @@
   {
     "id": 20340,
     "Key": "ci3",
-    "enUS": "\n   Diadem   \n",
+    "enUS": "Diadem",
     "zhTW": "權冠",
     "deDE": "[ns]Diadem",
     "esES": "[fs]Diadema",
@@ -15251,7 +15251,7 @@
   {
     "id": 20343,
     "Key": "ulm",
-    "enUS": "Armet",
+    "enUS": "",
     "zhTW": "覆頰盔",
     "deDE": "[ns]Armet",
     "esES": "[ms]Almete",
