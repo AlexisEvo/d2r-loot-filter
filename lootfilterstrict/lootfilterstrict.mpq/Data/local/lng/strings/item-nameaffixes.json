@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": 1723,
     "Key": "Low Quality",
@@ -2093,7 +2093,7 @@
   {
     "id": 1850,
     "Key": "of Alacrity",
-    "enUS": "of Alacrity",
+    "enUS": "of Alacrity\n★★",
     "zhTW": "輕快之",
     "deDE": "des Eifers",
     "esES": "de presteza",
@@ -2178,7 +2178,7 @@
   {
     "id": 1855,
     "Key": "of the Apprentice",
-    "enUS": "of the Apprentice",
+    "enUS": "of the Apprentice ★★",
     "zhTW": "學徒之",
     "deDE": "des Lehrlings",
     "esES": "del aprendiz",
@@ -2195,7 +2195,7 @@
   {
     "id": 1856,
     "Key": "of the Magus",
-    "enUS": "of the Magus",
+    "enUS": "of the Magus\n★★",
     "zhTW": "魔導師之",
     "deDE": "des Magiers",
     "esES": "del mago",
@@ -8247,7 +8247,7 @@
   {
     "id": 20700,
     "Key": "Witch-hunter's",
-    "enUS": "Witch-hunter's",
+    "enUS": "★★\nWitch-hunter's",
     "zhTW": "女巫獵人",
     "deDE": "Hexenjäger -",
     "esES": "[fs]de cazabrujas[ms]de cazabrujas[fp]de cazabrujas[mp]de cazabrujas",
@@ -9063,7 +9063,7 @@
   {
     "id": 20748,
     "Key": "Cunning",
-    "enUS": "Cunning",
+    "enUS": "★★\nCunning",
     "zhTW": "狡猾",
     "deDE": "[ms]listiger[fs]listige[ns]listiges[pl]listige",
     "esES": "[fs]taimada[ms]taimado[fp]taimadas[mp]taimados",
@@ -9335,7 +9335,7 @@
   {
     "id": 20764,
     "Key": "Echoing",
-    "enUS": "Echoing",
+    "enUS": "★★\nEchoing",
     "zhTW": "回音",
     "deDE": "[ms]hallender[fs]hallende[ns]hallendes[pl]hallende",
     "esES": "[fs]resonadora[ms]resonador[fp]resonadoras[mp]resonadores",
@@ -9488,7 +9488,7 @@
   {
     "id": 20773,
     "Key": "Rose Branded",
-    "enUS": "Rose Branded",
+    "enUS": "★★\nRose Branded",
     "zhTW": "玫瑰烙印",
     "deDE": "[ms]markierter[fs]markierte[ns]markiertes[pl]markierte",
     "esES": "[fs]de marca de rosa[ms]de marca de rosa[fp]de marca de rosa[mp]de marca de rosa",
@@ -9845,7 +9845,7 @@
   {
     "id": 20794,
     "Key": "Lancer's",
-    "enUS": "Lancer's",
+    "enUS": "★★\nLancer's",
     "zhTW": "長槍手",
     "deDE": "[ms]treffsicherer[fs]treffsichere[ns]treffsicheres[pl]treffsichere",
     "esES": "[fs]de lancera[ms]de lancera[fp]de lancera[mp]de lancera",
@@ -15880,7 +15880,7 @@
   {
     "id": 21149,
     "Key": "of Life Tap",
-    "enUS": "of Life Tap",
+    "enUS": "of Life Tap\n★★",
     "zhTW": "偷取生命之",
     "deDE": "des Lebenspenders",
     "esES": "de Transfusión de vida",
@@ -16220,7 +16220,7 @@
   {
     "id": 21169,
     "Key": "of Teleportation",
-    "enUS": "of Teleportation",
+    "enUS": "of Teleportation\n★★",
     "zhTW": "傳送之",
     "deDE": "der Teleportation",
     "esES": "de Teletransporte",
