@@ -1277,7 +1277,7 @@
   {
     "id": 1997,
     "Key": "fla",
-    "enUS": "Flail",
+    "enUS": "   Flail   \n",
     "zhTW": "連枷",
     "deDE": "[ms]Flegel",
     "esES": "[ms]Mangual",
@@ -4932,7 +4932,7 @@
   {
     "id": 2221,
     "Key": "Key",
-    "enUS": "",
+    "enUS": "k",
     "zhTW": "鑰匙",
     "deDE": "Schlüssel",
     "esES": "[fs]Llave",
@@ -5051,7 +5051,7 @@
   {
     "id": 2231,
     "Key": "box",
-    "enUS": "Loot Filter v1.2.0\nHoradric Cube",
+    "enUS": "Loot Filter v1.3.0\nHoradric Cube",
     "zhTW": "赫拉迪姆方塊",
     "deDE": "Horadrimwürfel",
     "esES": "Cubo horádrico",
@@ -5170,7 +5170,7 @@
   {
     "id": 2239,
     "Key": "gzv",
-    "enUS": "ÿc;@",
+    "enUS": "ÿc;@ Amethyst",
     "zhTW": "無瑕紫寶石",
     "deDE": "makelloser Amethyst",
     "esES": "Amatista sin defectos",
@@ -5255,7 +5255,7 @@
   {
     "id": 2244,
     "Key": "gly",
-    "enUS": "ÿc9@",
+    "enUS": "ÿc9@ Topaz",
     "zhTW": "無瑕黃寶石",
     "deDE": "makelloser Topas",
     "esES": "Topacio sin defectos",
@@ -5323,7 +5323,7 @@
   {
     "id": 2249,
     "Key": "glb",
-    "enUS": "ÿc3@",
+    "enUS": "ÿc3@ Sapphire",
     "zhTW": "無瑕藍寶石",
     "deDE": "makelloser Saphir",
     "esES": "Zafiro sin defectos",
@@ -5391,7 +5391,7 @@
   {
     "id": 2253,
     "Key": "glg",
-    "enUS": "ÿc2@",
+    "enUS": "ÿc2@ Emerald",
     "zhTW": "無瑕綠寶石",
     "deDE": "makelloser Smaragd",
     "esES": "Esmeralda sin defectos",
@@ -5459,7 +5459,7 @@
   {
     "id": 2259,
     "Key": "glr",
-    "enUS": "ÿc1@",
+    "enUS": "ÿc1@ Ruby",
     "zhTW": "無瑕紅寶石",
     "deDE": "makelloser Rubin",
     "esES": "Rubí sin defectos",
@@ -5527,7 +5527,7 @@
   {
     "id": 2264,
     "Key": "glw",
-    "enUS": "ÿc5@",
+    "enUS": "ÿc5@ Diamond",
     "zhTW": "無瑕鑽石",
     "deDE": "makelloser Diamant",
     "esES": "Diamante sin defectos",
@@ -5561,7 +5561,7 @@
   {
     "id": 2266,
     "Key": "hp1",
-    "enUS": "ÿc1HP1",
+    "enUS": "ÿcLIFE1",
     "zhTW": "弱效生命藥水",
     "deDE": "schwacher Heiltrank",
     "esES": "Poción de salud menor",
@@ -5578,7 +5578,7 @@
   {
     "id": 2267,
     "Key": "hp2",
-    "enUS": "ÿc1HP2",
+    "enUS": "ÿc1LIFE2",
     "zhTW": "輕效生命藥水",
     "deDE": "leichter Heiltrank",
     "esES": "Poción de salud ligera",
@@ -5595,7 +5595,7 @@
   {
     "id": 2268,
     "Key": "hp3",
-    "enUS": "ÿc1HP3",
+    "enUS": "ÿc1LIFE3",
     "zhTW": "生命藥水",
     "deDE": "Heiltrank",
     "esES": "Poción de salud",
@@ -5612,7 +5612,7 @@
   {
     "id": 2269,
     "Key": "hp4",
-    "enUS": "ÿc1HP4",
+    "enUS": "ÿc1LIFE4",
     "zhTW": "強效生命藥水",
     "deDE": "guter Heiltrank",
     "esES": "Poción de salud superior",
@@ -5629,7 +5629,7 @@
   {
     "id": 2270,
     "Key": "hp5",
-    "enUS": "ÿc1HP5",
+    "enUS": "ÿc1LIFE5",
     "zhTW": "特效生命藥水",
     "deDE": "starker Heiltrank",
     "esES": "Superpoción de salud",
@@ -5646,7 +5646,7 @@
   {
     "id": 2271,
     "Key": "mp1",
-    "enUS": "ÿc3MP1",
+    "enUS": "ÿc3MANA1",
     "zhTW": "弱效法力藥水",
     "deDE": "schwacher Manatrank",
     "esES": "Poción de maná menor",
@@ -5663,7 +5663,7 @@
   {
     "id": 2272,
     "Key": "mp2",
-    "enUS": "ÿc3MP2",
+    "enUS": "ÿc3MANA2",
     "zhTW": "輕效法力藥水",
     "deDE": "leichter Manatrank",
     "esES": "Poción de maná ligera",
@@ -5680,7 +5680,7 @@
   {
     "id": 2273,
     "Key": "mp3",
-    "enUS": "ÿc3MP3",
+    "enUS": "ÿc3MANA3",
     "zhTW": "法力藥水",
     "deDE": "Manatrank",
     "esES": "Poción de maná",
@@ -5697,7 +5697,7 @@
   {
     "id": 2274,
     "Key": "mp4",
-    "enUS": "ÿc3MP4",
+    "enUS": "ÿc3MANA4",
     "zhTW": "強效法力藥水",
     "deDE": "guter Manatrank",
     "esES": "Poción de maná superior",
@@ -5714,7 +5714,7 @@
   {
     "id": 2275,
     "Key": "mp5",
-    "enUS": "ÿc3MP5",
+    "enUS": "ÿc3MANA5",
     "zhTW": "特效法力藥水",
     "deDE": "starker Manatrank",
     "esES": "Superpoción de maná",
@@ -5782,7 +5782,7 @@
   {
     "id": 2280,
     "Key": "skl",
-    "enUS": "ÿc5@",
+    "enUS": "ÿc5@ Skull",
     "zhTW": "無瑕骷髏石",
     "deDE": "makelloser Schädel",
     "esES": "Cráneo sin defectos",
@@ -14741,7 +14741,7 @@
   {
     "id": 20313,
     "Key": "amc",
-    "enUS": "Grand Matron Bow",
+    "enUS": "   Grand Matron Bow   \n",
     "zhTW": "主母之弓",
     "deDE": "[ms]Großer Matronenbogen",
     "esES": "[ms]Arco de la gran matrona",
@@ -15217,7 +15217,7 @@
   {
     "id": 20341,
     "Key": "uap",
-    "enUS": "Shako",
+    "enUS": "   Shako   \n",
     "zhTW": "軍帽",
     "deDE": "[ms]Tschako",
     "esES": "[ms]Chacó",
