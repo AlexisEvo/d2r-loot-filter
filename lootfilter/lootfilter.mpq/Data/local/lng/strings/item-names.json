@@ -5051,7 +5051,7 @@
   {
     "id": 2231,
     "Key": "box",
-    "enUS": "Loot Filter v1.3.0\nHoradric Cube",
+    "enUS": "Loot Filter v1.3.1\nHoradric Cube",
     "zhTW": "赫拉迪姆方塊",
     "deDE": "Horadrimwürfel",
     "esES": "Cubo horádrico",
@@ -14129,7 +14129,7 @@
   {
     "id": 20273,
     "Key": "6s7",
-    "enUS": "ÿc0Diamond Bow",
+    "enUS": "Diamond Bow",
     "zhTW": "鑽石弓",
     "deDE": "[ms]Diamantbogen",
     "esES": "[ms]Arco de diamante",
@@ -15472,7 +15472,7 @@
   {
     "id": 20352,
     "Key": "ung",
-    "enUS": "ÿc0Diamond Mail",
+    "enUS": "Diamond Mail",
     "zhTW": "鑽石鎖甲",
     "deDE": "[ns]Diamantpanzerhemd",
     "esES": "[fs]Cota de diamante",
