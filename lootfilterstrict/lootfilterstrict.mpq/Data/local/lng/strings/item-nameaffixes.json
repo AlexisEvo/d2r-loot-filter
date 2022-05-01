@@ -2,7 +2,7 @@
   {
     "id": 1723,
     "Key": "Low Quality",
-    "enUS": "",
+    "enUS": "№",
     "zhTW": "劣等的",
     "deDE": "[ms]schlechter[fs]schlechte[ns]schlechtes[pl]schlechte",
     "esES": "de baja calidad",
@@ -19,7 +19,7 @@
   {
     "id": 1724,
     "Key": "Damaged",
-    "enUS": "",
+    "enUS": "№",
     "zhTW": "損壞的",
     "deDE": "[ms]beschädigter[fs]beschädigte[ns]beschädigtes[pl]beschädigte",
     "esES": "[fs]dañada[ms]dañado[fp]dañadas[mp]dañados",
@@ -36,7 +36,7 @@
   {
     "id": 1725,
     "Key": "Cracked",
-    "enUS": "",
+    "enUS": "№",
     "zhTW": "破舊的",
     "deDE": "[ms]rissiger[fs]rissige[ns]rissiges[pl]rissige",
     "esES": "[fs]agrietada[ms]agrietado[fp]agrietadas[mp]agrietados",
@@ -53,7 +53,7 @@
   {
     "id": 1727,
     "Key": "Hiquality",
-    "enUS": "Superior",
+    "enUS": "Sup",
     "zhTW": "特等的",
     "deDE": "[fs]gute[ms]guter[ns]gutes[pl]gute",
     "esES": "[fs]superior[ms]superior[fp]superiores[mp]superiores",
@@ -3470,7 +3470,7 @@
   {
     "id": 2248,
     "Key": "gsb",
-    "enUS": "",
+    "enUS": "ÿc3Sapphire",
     "zhTW": "藍寶石",
     "deDE": "Saphir",
     "esES": "Zafiro",
@@ -3487,7 +3487,7 @@
   {
     "id": 2254,
     "Key": "gsg",
-    "enUS": "",
+    "enUS": "ÿc2Emerald",
     "zhTW": "綠寶石",
     "deDE": "Smaragd",
     "esES": "Esmeralda",
@@ -3504,7 +3504,7 @@
   {
     "id": 2258,
     "Key": "gsr",
-    "enUS": "",
+    "enUS": "ÿc1Ruby",
     "zhTW": "紅寶石",
     "deDE": "Rubin",
     "esES": "Rubí",
@@ -3521,7 +3521,7 @@
   {
     "id": 2263,
     "Key": "gsw",
-    "enUS": "",
+    "enUS": "ÿc0Diamond",
     "zhTW": "鑽石",
     "deDE": "Diamant",
     "esES": "Diamante",
@@ -11817,7 +11817,7 @@
   {
     "id": 20910,
     "Key": "Crude",
-    "enUS": "",
+    "enUS": "№",
     "zhTW": "粗製的",
     "deDE": "[ms]einfacher[fs]einfache[ns]einfaches[pl]einfache",
     "esES": "[fs]basta[ms]basto[fp]bastas[mp]bastos",
