@@ -5051,7 +5051,7 @@
   {
     "id": 2231,
     "Key": "box",
-    "enUS": "Loot Filter Strict v1.3.2\nHoradric Cube",
+    "enUS": "Loot Filter Strict v1.4.0\nHoradric Cube",
     "zhTW": "赫拉迪姆方塊",
     "deDE": "Horadrimwürfel",
     "esES": "Cubo horádrico",
@@ -16577,7 +16577,7 @@
   {
     "id": 20417,
     "Key": "pab",
-    "enUS": "Sacred Targe",
+    "enUS": "   Sacred Targe   \n",
     "zhTW": "神聖小盾",
     "deDE": "[fs]Heilige Targe",
     "esES": "[fs]Adarga sacra",
@@ -16594,7 +16594,7 @@
   {
     "id": 20418,
     "Key": "pac",
-    "enUS": "Sacred Rondache",
+    "enUS": "   Sacred Rondache   \n",
     "zhTW": "神聖輕圓盾",
     "deDE": "[fs]Heilige Rondache",
     "esES": "[fs]Rodela sacra",
