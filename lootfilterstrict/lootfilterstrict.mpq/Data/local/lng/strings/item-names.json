@@ -13670,7 +13670,7 @@
   {
     "id": 20246,
     "Key": "7bk",
-    "enUS": "Winged Knife",
+    "enUS": "Winged Knife\n",
     "zhTW": "刃翼飛刀",
     "deDE": "[ms]Schwingendolch",
     "esES": "[ms]Cuchillo alado",
@@ -13687,7 +13687,7 @@
   {
     "id": 20247,
     "Key": "7b8",
-    "enUS": "Winged Axe",
+    "enUS": "   Winged Axe   \n",
     "zhTW": "刃翼飛斧",
     "deDE": "[fs]Schwingenaxt",
     "esES": "[fs]Hacha alada",
