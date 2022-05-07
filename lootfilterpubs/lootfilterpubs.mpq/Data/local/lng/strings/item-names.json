@@ -5051,7 +5051,7 @@
   {
     "id": 2231,
     "Key": "box",
-    "enUS": "Loot Filter Public Game v1.5.0\nHoradric Cube",
+    "enUS": "Loot Filter Public Game v1.5.1\nHoradric Cube",
     "zhTW": "赫拉迪姆方塊",
     "deDE": "Horadrimwürfel",
     "esES": "Cubo horádrico",
@@ -5510,7 +5510,7 @@
   {
     "id": 2259,
     "Key": "glr",
-    "enUS": "",
+    "enUS": "ÿc4Flawless ÿc1Ruby",
     "zhTW": "無瑕紅寶石",
     "deDE": "makelloser Rubin",
     "esES": "Rubí sin defectos",
@@ -5629,7 +5629,7 @@
   {
     "id": 2266,
     "Key": "hp1",
-    "enUS": "ÿcLIFE 1",
+    "enUS": "ÿc1LIFE 1",
     "zhTW": "弱效生命藥水",
     "deDE": "schwacher Heiltrank",
     "esES": "Poción de salud menor",
@@ -13653,7 +13653,7 @@
   {
     "id": 20245,
     "Key": "7ta",
-    "enUS": "",
+    "enUS": "Flying Axe\n",
     "zhTW": "高速飛斧",
     "deDE": "[fs]Flugaxt",
     "esES": "[fs]Hacha voladora",
