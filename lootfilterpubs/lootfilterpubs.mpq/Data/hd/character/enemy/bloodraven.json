@@ -1,0 +1,329 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/character/enemy/bloodraven/torso.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/character/enemy/bloodraven/skeleton/bloodraven.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/character/common/common_ktint.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/bloodraven/textures/bloodraven_armor_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/bloodraven/textures/bloodraven_armor_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/bloodraven/textures/bloodraven_armor_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/bloodraven/textures/bloodraven_body_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/bloodraven/textures/bloodraven_body_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/bloodraven/textures/bloodraven_body_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/bloodraven/textures/bloodraven_mask_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/bloodraven/textures/bloodraven_mask_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/bloodraven/textures/bloodraven_mask_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/corruptrogue1/textures/corruptrogue_armor_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/corruptrogue1/textures/corruptrogue_armor_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/corruptrogue1/textures/corruptrogue_armor_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/corruptrogue1/textures/corruptrogue_bodyhvy_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/corruptrogue1/textures/corruptrogue_bodyhvy_KTINT.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/corruptrogue1/textures/corruptrogue_bodyhvy_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/corruptrogue1/textures/corruptrogue_bodyhvy_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/corruptrogue1/textures/corruptrogue_bodyhvy_SSS.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/character/enemy/bloodraven/bloodraven_state_machine.json"
+            },
+            {
+                "path": "data/hd/items/weapon/bow/_monsters/corrupt_rogue_bow.json"
+            },
+            {
+                "path": "data/hd/items/weapon/bow/_monsters/corrupt_rogue_bow/bloodraven_corrupt_rougue_bow_state_machine.json"
+            },
+            {
+                "path": "data/hd/missiles/arrow.json"
+            },
+            {
+                "path": "data/hd/missiles/fire_arrow.json"
+            },
+            {
+                "path": "data/hd/missiles/fire_arrow_explode_2.json"
+            }
+        ],
+        "variantdata": [
+            {
+                "path": "data/hd/character/enemy/bloodraven/bloodraven_variant.json"
+            }
+        ],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "bloodraven",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1743702915,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/character/enemy/bloodraven/bloodraven_state_machine.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/character/enemy/bloodraven/skeleton/bloodraven.skeleton"
+                },
+                {
+                    "type": "VariantDefinitionComponent",
+                    "name": "component_variant",
+                    "filename": "data/hd/character/enemy/bloodraven/bloodraven_variant.json"
+                },
+                {
+                    "type": "DefinitionPreloadComponent",
+                    "name": "Root_DefinitionPreloadComponent",
+                    "missiles": [
+                        {
+                            "type": "UnitDefinitionListEntry",
+                            "name": "Root_UnitDefinitionList_Entry1",
+                            "filename": "data/hd/missiles/arrow.json"
+                        },
+                        {
+                            "type": "UnitDefinitionListEntry",
+                            "name": "Root_UnitDefinitionList_Entry2",
+                            "filename": "data/hd/missiles/fire_arrow_explode_2.json"
+                        },
+                        {
+                            "type": "UnitDefinitionListEntry",
+                            "name": "Root_UnitDefinitionList_Entry3",
+                            "filename": "data/hd/missiles/fire_arrow.json"
+                        }
+                    ],
+                    "overlays": [],
+                    "minions": []
+                },
+                {
+                    "type": "MoveAnimationSelectComponent",
+                    "name": "entity_root_MoveAnimationSelect",
+                    "animationOptions": [
+                        {
+                            "type": "MoveAnimationOption",
+                            "name": "entity_root_MoveAnimationSelect_animationOptions_0",
+                            "validForWalk": true,
+                            "validForRun": true,
+                            "validInsideTown": true,
+                            "validOutsideTown": true,
+                            "minMoveSpeed": 0.0,
+                            "maxMoveSpeed": 7.0,
+                            "baseMoveSpeed": 4.0,
+                            "animationName": "Walk"
+                        },
+                        {
+                            "type": "MoveAnimationOption",
+                            "name": "entity_root_MoveAnimationSelect_animationOptions_1",
+                            "validForWalk": true,
+                            "validForRun": true,
+                            "validInsideTown": true,
+                            "validOutsideTown": true,
+                            "minMoveSpeed": 7.0,
+                            "maxMoveSpeed": 15.0,
+                            "baseMoveSpeed": 9.0,
+                            "animationName": "Run"
+                        },
+                        {
+                            "type": "MoveAnimationOption",
+                            "name": "entity_root_MoveAnimationSelect_animationOptions_2",
+                            "validForWalk": true,
+                            "validForRun": true,
+                            "validInsideTown": true,
+                            "validOutsideTown": true,
+                            "minMoveSpeed": 15.0,
+                            "maxMoveSpeed": 99.0,
+                            "baseMoveSpeed": 15.0,
+                            "animationName": "Sprint"
+                        }
+                    ],
+                    "defaultAnimationName": "Run"
+                },
+                {
+                    "type": "IKComponent",
+                    "name": "entity_root_IK",
+                    "preset": {
+                        "type": "IKPreset",
+                        "name": "Default_Biped_Outsource",
+                        "footIKSetup": [
+                            {
+                                "type": "FootIKSetup",
+                                "name": "Default_Biped_Outsource_footIKSetup_0",
+                                "footBoneName": "R_leg_03_bind_jnt",
+                                "kneeBoneName": "R_leg_02_bind_jnt",
+                                "hipBoneName": "R_leg_01_bind_jnt",
+                                "locationTrackName": "R_IK_position",
+                                "enabledTrackName": "R_FKIK",
+                                "hyperExtensionStart": 0.0,
+                                "hyperExtensionScale": 1.0,
+                                "defaultEnabled": false,
+                                "kneeRotationAxis": 0,
+                                "flipKneeRotationAxis": false
+                            },
+                            {
+                                "type": "FootIKSetup",
+                                "name": "Default_Biped_Outsource_footIKSetup_1",
+                                "footBoneName": "L_leg_03_bind_jnt",
+                                "kneeBoneName": "L_leg_02_bind_jnt",
+                                "hipBoneName": "L_leg_01_bind_jnt",
+                                "locationTrackName": "L_IK_position",
+                                "enabledTrackName": "L_FKIK",
+                                "hyperExtensionStart": 0.0,
+                                "hyperExtensionScale": 1.0,
+                                "defaultEnabled": false,
+                                "kneeRotationAxis": 0,
+                                "flipKneeRotationAxis": false
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso",
+            "id": 2276015120,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso",
+                    "part": "torso",
+                    "variant": "hvy"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_torso",
+                    "filename": "data/hd/character/enemy/bloodraven/torso.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitAttachmentComponent",
+                    "name": "entity_torso_UnitAttachment",
+                    "filename": "data/hd/items/weapon/bow/_monsters/corrupt_rogue_bow.json",
+                    "overrideBoneName": "L_weapon_attach",
+                    "orientTowardBoneName": "",
+                    "attachmentTransform": {
+                        "type": "Transform",
+                        "name": "entity_torso_UnitAttachment_attachmentTransform",
+                        "translation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 0.8,
+                            "y": 0.8,
+                            "z": 0.8
+                        }
+                    },
+                    "attachmentStateMachineFilename": "data/hd/items/weapon/bow/_monsters/corrupt_rogue_bow/bloodraven_corrupt_rougue_bow_state_machine.json",
+                    "part": "torso",
+                    "variant": "hvy"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1079187010,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_root_VfxDefinition",
+                    "filename": "data/hd/nickname/particles/super.particles",
+                    "hardKillOnDestroy": false
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "vfx4294962040_component_transform",
+                    "position": {
+                        "x": 0.0,
+                        "y": 9.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        }
+    ]
+}

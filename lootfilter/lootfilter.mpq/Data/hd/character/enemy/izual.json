@@ -1,0 +1,339 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/character/enemy/izual/torso.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/character/enemy/izual/skeleton/izual.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/character/common/common_ktint.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_armor_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_armor_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_armor_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_body_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_body_death_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_body_death_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_body_death_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_body_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_body_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_body_SSS.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_skeleton_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_skeleton_KTINT.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_skeleton_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_skeleton_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_tail_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_tail_death_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_tail_death_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_tail_death_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_tail_NRM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_tail_ORM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_wings_SSS.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_wings_sword_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_wings_sword_death_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_wings_sword_death_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_wings_sword_death_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_wings_sword_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_wings_sword_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/megademon1/textures/Body_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/megademon1/textures/Body_KTINT.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/megademon1/textures/Body_NRM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/megademon1/textures/Body_ORM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/megademon1/textures/megademon_body_sss.texture"
+            },
+            {
+                "path": "data/hd/vfx/textures/noise/T_FX_cloud_noise_03.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/character/enemy/izual/izual_state_machine.json"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/_monsters/izual_sword.json"
+            },
+            {
+                "path": "data/hd/missiles/frost_nova.json"
+            },
+            {
+                "path": "data/hd/overlays/common/ice_explode.json"
+            },
+            {
+                "path": "data/hd/overlays/sorceress/ice_cast_2.json"
+            }
+        ],
+        "variantdata": [
+            {
+                "path": "data/hd/character/enemy/izual/izual_variant.json"
+            }
+        ],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "izual",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 2023932368,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/character/enemy/izual/izual_state_machine.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/character/enemy/izual/skeleton/izual.skeleton"
+                },
+                {
+                    "type": "VariantDefinitionComponent",
+                    "name": "component_variant",
+                    "filename": "data/hd/character/enemy/izual/izual_variant.json"
+                },
+                {
+                    "type": "DefinitionPreloadComponent",
+                    "name": "Root_DefinitionPreloadComponent",
+                    "missiles": [
+                        {
+                            "type": "UnitDefinitionListEntry",
+                            "name": "Root_UnitDefinitionList_Entry1",
+                            "filename": "data/hd/missiles/frost_nova.json"
+                        }
+                    ],
+                    "overlays": [
+                        {
+                            "type": "OverlayDefinitionListEntry",
+                            "name": "Root_OverlayDefinitionList_Entry1",
+                            "filename": "data/hd/overlays/common/ice_explode.json"
+                        },
+                        {
+                            "type": "OverlayDefinitionListEntry",
+                            "name": "Root_OverlayDefinitionList_Entry2",
+                            "filename": "data/hd/overlays/sorceress/ice_cast_2.json"
+                        }
+                    ],
+                    "minions": []
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.9,
+                        "y": 0.9,
+                        "z": 0.9
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "MoveAnimationSelectComponent",
+                    "name": "entity_root_MoveAnimationSelect",
+                    "animationOptions": [
+                        {
+                            "type": "MoveAnimationOption",
+                            "name": "entity_root_MoveAnimationSelect_animationOptions_0",
+                            "validForWalk": true,
+                            "validForRun": true,
+                            "validInsideTown": true,
+                            "validOutsideTown": true,
+                            "minMoveSpeed": 0.0,
+                            "maxMoveSpeed": 13.0,
+                            "baseMoveSpeed": 9.0,
+                            "animationName": "Walk"
+                        }
+                    ],
+                    "defaultAnimationName": "Walk"
+                },
+                {
+                    "type": "DeadAnimationSpeedOverrideComponent",
+                    "name": "entity_root_DeadAnimationSpeedOverrideComponent",
+                    "speed": 1.0
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso",
+            "id": 2879256200,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_torso",
+                    "filename": "data/hd/character/enemy/izual/torso.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitAttachmentComponent",
+                    "name": "entity_torso_UnitAttachment",
+                    "filename": "data/hd/items/weapon/sword/_monsters/izual_sword.json",
+                    "overrideBoneName": "R_weapon_attach",
+                    "orientTowardBoneName": "",
+                    "attachmentTransform": {
+                        "type": "Transform",
+                        "name": "entity_torso_UnitAttachment_attachmentTransform",
+                        "translation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.2
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    },
+                    "attachmentStateMachineFilename": "",
+                    "part": "torso",
+                    "variant": "lit"
+                }
+            ]
+        },
+        {
+          "type": "Entity",
+          "name": "entity_root",
+          "id": 1079187010,
+          "components": [
+              {
+                  "type": "VfxDefinitionComponent",
+                  "name": "entity_root_VfxDefinition",
+                  "filename": "data/hd/nickname/particles/super.particles",
+                  "hardKillOnDestroy": false
+              },
+              {
+                  "type": "TransformDefinitionComponent",
+                  "name": "vfx4294962040_component_transform",
+                  "position": {
+                      "x": 0.0,
+                      "y": 11.0,
+                      "z": 0.0
+                  },
+                  "orientation": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 1.0
+                  },
+                  "scale": {
+                      "x": 1.0,
+                      "y": 1.0,
+                      "z": 1.0
+                  },
+                  "inheritOnlyPosition": false
+              }
+          ]
+      }
+    ]
+}

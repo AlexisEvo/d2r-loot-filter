@@ -1,0 +1,290 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/character/enemy/nihlathakboss/torso.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/character/enemy/nihlathakboss/skeleton/nihlathakboss.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/character/common/common_dirt_threshold.texture"
+            },
+            {
+                "path": "data/hd/character/common/common_hair1_FLOW.texture"
+            },
+            {
+                "path": "data/hd/character/common/common_hair1_HRT.texture"
+            },
+            {
+                "path": "data/hd/character/common/common_ktint.texture"
+            },
+            {
+                "path": "data/hd/character/npc/nihlathak/textures/nihlathak_armor_alb.texture"
+            },
+            {
+                "path": "data/hd/character/npc/nihlathak/textures/nihlathak_armor_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/npc/nihlathak/textures/nihlathak_armor_orm.texture"
+            },
+            {
+                "path": "data/hd/character/npc/nihlathak/textures/nihlathak_hair_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/npc/nihlathak/textures/nihlathak_head_alb.texture"
+            },
+            {
+                "path": "data/hd/character/npc/nihlathak/textures/nihlathak_head_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/npc/nihlathak/textures/nihlathak_head_orm.texture"
+            },
+            {
+                "path": "data/hd/character/npc/nihlathak/textures/nihlathak_head_SSS.texture"
+            },
+            {
+                "path": "data/hd/vfx/meshes/character/enemy/nihlathak/textures/nihlathak_skeleton_basebody_alb.texture"
+            },
+            {
+                "path": "data/hd/vfx/meshes/character/enemy/nihlathak/textures/nihlathak_skeleton_basebody_nrm.texture"
+            },
+            {
+                "path": "data/hd/vfx/meshes/character/enemy/nihlathak/textures/nihlathak_skeleton_basebody_orm.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/character/enemy/nihlathakboss/nihlathakboss_state_machine.json"
+            },
+            {
+                "path": "data/hd/missiles/expansion_arctic_blast_ice.json"
+            },
+            {
+                "path": "data/hd/overlays/common/spawnedminion.json"
+            }
+        ],
+        "variantdata": [
+            {
+                "path": "data/hd/character/enemy/nihlathakboss/nihlathakboss_variant.json"
+            }
+        ],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "nihlathakboss",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1071268492,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/character/enemy/nihlathakboss/nihlathakboss_state_machine.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/character/enemy/nihlathakboss/skeleton/nihlathakboss.skeleton"
+                },
+                {
+                    "type": "VariantDefinitionComponent",
+                    "name": "component_variant",
+                    "filename": "data/hd/character/enemy/nihlathakboss/nihlathakboss_variant.json"
+                },
+                {
+                    "type": "DefinitionPreloadComponent",
+                    "name": "Root_DefinitionPreloadComponent",
+                    "missiles": [
+                        {
+                            "type": "UnitDefinitionListEntry",
+                            "name": "Root_UnitDefinitionList_Entry1",
+                            "filename": "data/hd/missiles/expansion_arctic_blast_ice.json"
+                        }
+                    ],
+                    "overlays": [
+                        {
+                            "type": "OverlayDefinitionListEntry",
+                            "name": "Root_OverlayDefinitionList_Entry1",
+                            "filename": "data/hd/overlays/common/spawnedminion.json"
+                        }
+                    ],
+                    "minions": []
+                },
+                {
+                    "type": "DeadAnimationSpeedOverrideComponent",
+                    "name": "entity_root_DeadAnimationSpeedOverride",
+                    "speed": 1.0
+                },
+                {
+                    "type": "AimLayersComponent",
+                    "name": "entity_root_AimLayers",
+                    "aimLayers": [
+                        {
+                            "type": "AimLayerSetup",
+                            "name": "entity_root_AimLayers_aimLayers_0",
+                            "layerName": "Aim_Head",
+                            "yawAnimationState": "HeadAimLayer_Yaw",
+                            "yawOutOfRangeBehavior": 2,
+                            "yawAngleOffset": 0.0,
+                            "pitchAnimationState": "",
+                            "pitchOutOfRangeBehavior": 0,
+                            "pitchAngleOffset": 0.0,
+                            "aimLocationTrackName": "aim_location",
+                            "aimDampingFactor": 0.15,
+                            "aimTarget": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso",
+            "id": 1603646233,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_torso",
+                    "filename": "data/hd/character/enemy/nihlathakboss/torso.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+		{
+			"type": "Entity",
+			"name": "entity_root",
+			"id": 1079187010,
+			"components": [
+				{
+					"type": "VfxDefinitionComponent",
+					"name": "entity_root_VfxDefinition",
+					"filename": "data/hd/vfx/particles/character/enemy/valkyrie/valkyrie_aura.particles",
+					"hardKillOnDestroy": false
+				},
+				{
+					"type": "TransformDefinitionComponent",
+					"name": "TransformDefinitionComponent002",
+					"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+					"orientation": {
+					"x": 0.7,
+					"y": 0.0,
+					"z": 0.0,
+					"w": 1.0
+				},
+					"scale": {
+					"x": 1.3,
+					"y": 1.3,
+					"z": 1.3
+				},
+					"inheritOnlyPosition": false
+				}
+			]
+		},
+		{
+			"type": "Entity",
+			"name": "entity_root",
+			"id": 1079187010,
+			"components": [
+				{
+					"type": "VfxDefinitionComponent",
+					"name": "entity_vfx_VfxDefinitionComponent",
+					"filename": "data/hd/vfx/particles/missiles/lightning_strike/Lightning.particles",
+					"hardKillOnDestroy": false
+				},
+				{
+					"type": "TransformDefinitionComponent",
+					"name": "entity_vfx_TransformDefinition",
+					"position": {
+						"x": 0.0,
+						"y": 3.0,
+						"z": 0.0
+					},
+					"orientation": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0,
+						"w": 1.0
+					},
+					"scale": {
+						"x": 3.0,
+						"y": 3.0,
+						"z": 3.0
+					},
+					"inheritOnlyPosition": false
+				}
+			]
+		},
+		{
+			"type": "Entity",
+			"name": "entity_root",
+			"id": 1079187010,
+			"components": [
+				{
+					"type": "VfxDefinitionComponent",
+					"name": "entity_root_VfxDefinition",
+					"filename": "data/hd/nickname/particles/super.particles",
+					"hardKillOnDestroy": false
+				},
+				{
+					"type": "TransformDefinitionComponent",
+					"name": "entity_vfx_TransformDefinition",
+					"position": {
+						"x": 0.0,
+						"y": 9.0,
+						"z": 0.0
+					},
+					"orientation": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0,
+						"w": 1.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"inheritOnlyPosition": false
+				}
+			]
+		}
+    ]
+}
