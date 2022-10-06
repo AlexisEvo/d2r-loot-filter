@@ -1,0 +1,753 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/character/enemy/overseer1/base.model"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/head_hvy.model"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/head_lit.model"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/head_med.model"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/larm_hvy.model"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/larm_lit.model"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/rarm_hvy.model"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/rarm_lit.model"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/special1_hvy.model"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/special1_lit.model"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/special1_med.model"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/special2_hvy.model"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/special2_lit.model"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/special2_med.model"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/torso_hvy.model"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/torso_lit.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/character/enemy/overseer1/skeleton/overseer1.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/Gore_overseer_bones_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/Gore_overseer_bones_NRM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/Gore_overseer_bones_ORM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_armor_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_armor_KTINT.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_armor_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_armor_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_armorLit_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_armorLit_KTINT.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_armorLit_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_armorLit_ORM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_armorMed_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_armorMed_KTINT.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_armorMed_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_armorMed_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_body_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_body_KTINT.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_body_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_body_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_body_SSS.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_whip_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_whip_NRM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/overseer1/textures/overseer_whip_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/character/enemy/overseer1/overseer1_state_machine.json"
+            },
+            {
+                "path": "data/hd/missiles/expansion_overseer_missile.json"
+            },
+            {
+                "path": "data/hd/overlays/common/curseattract.json"
+            },
+            {
+                "path": "data/hd/overlays/common/healing.json"
+            }
+        ],
+        "variantdata": [
+            {
+                "path": "data/hd/character/enemy/overseer1/overseer1_variant.json"
+            }
+        ],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "overseer1",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1603646233,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/character/enemy/overseer1/overseer1_state_machine.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/character/enemy/overseer1/skeleton/overseer1.skeleton"
+                },
+                {
+                    "type": "VariantDefinitionComponent",
+                    "name": "component_variant",
+                    "filename": "data/hd/character/enemy/overseer1/overseer1_variant.json"
+                },
+                {
+                    "type": "DefinitionPreloadComponent",
+                    "name": "Root_DefinitionPreloadComponent",
+                    "missiles": [
+                        {
+                            "type": "UnitDefinitionListEntry",
+                            "name": "Root_UnitDefinitionList_Entry1",
+                            "filename": "data/hd/missiles/expansion_overseer_missile.json"
+                        }
+                    ],
+                    "overlays": [
+                        {
+                            "type": "OverlayDefinitionListEntry",
+                            "name": "Root_OverlayDefinitionList_Entry1",
+                            "filename": "data/hd/overlays/common/healing.json"
+                        },
+                        {
+                            "type": "OverlayDefinitionListEntry",
+                            "name": "Root_OverlayDefinitionList_Entry2",
+                            "filename": "data/hd/overlays/common/curseattract.json"
+                        }
+                    ],
+                    "minions": []
+                },
+                {
+                    "type": "DeadAnimationSpeedOverrideComponent",
+                    "name": "entity_root_DeadAnimationSpeedOverrideComponent",
+                    "speed": 1.0
+                },
+                {
+                    "type": "IKComponent",
+                    "name": "entity_root_IK",
+                    "preset": {
+                        "type": "IKPreset",
+                        "name": "Default_Biped_Outsource",
+                        "footIKSetup": [
+                            {
+                                "type": "FootIKSetup",
+                                "name": "Default_Biped_Outsource_footIKSetup_0",
+                                "footBoneName": "R_leg_03_bind_jnt",
+                                "kneeBoneName": "R_leg_02_bind_jnt",
+                                "hipBoneName": "R_leg_01_bind_jnt",
+                                "locationTrackName": "R_IK_position",
+                                "enabledTrackName": "R_FKIK",
+                                "hyperExtensionStart": 0.0,
+                                "hyperExtensionScale": 1.0,
+                                "defaultEnabled": false,
+                                "kneeRotationAxis": 0,
+                                "flipKneeRotationAxis": false
+                            },
+                            {
+                                "type": "FootIKSetup",
+                                "name": "Default_Biped_Outsource_footIKSetup_1",
+                                "footBoneName": "L_leg_03_bind_jnt",
+                                "kneeBoneName": "L_leg_02_bind_jnt",
+                                "hipBoneName": "L_leg_01_bind_jnt",
+                                "locationTrackName": "L_IK_position",
+                                "enabledTrackName": "L_FKIK",
+                                "hyperExtensionStart": 0.0,
+                                "hyperExtensionScale": 1.0,
+                                "defaultEnabled": false,
+                                "kneeRotationAxis": 0,
+                                "flipKneeRotationAxis": false
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "MoveAnimationSelectComponent",
+                    "name": "entity_root_MoveAnimationSelect",
+                    "animationOptions": [
+                        {
+                            "type": "MoveAnimationOption",
+                            "name": "entity_root_MoveAnimationSelect_animationOptions_0",
+                            "validForWalk": true,
+                            "validForRun": true,
+                            "validInsideTown": true,
+                            "validOutsideTown": true,
+                            "minMoveSpeed": 0.0,
+                            "maxMoveSpeed": 99.0,
+                            "baseMoveSpeed": 5.5,
+                            "animationName": "Walk"
+                        }
+                    ],
+                    "defaultAnimationName": "Walk"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso_lit",
+            "id": 2475747537,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_torso",
+                    "filename": "data/hd/character/enemy/overseer1/torso_lit.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_head_lit",
+            "id": 468083679,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_head_lit_ModelDefinition",
+                    "filename": "data/hd/character/enemy/overseer1/head_lit.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_head_lit_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso_hvy",
+            "id": 3223410806,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_torso_hvy_ModelDefinition",
+                    "filename": "data/hd/character/enemy/overseer1/torso_hvy.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_torso_hvy_UnitPart",
+                    "part": "torso",
+                    "variant": "hvy"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_head_med",
+            "id": 1751597662,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_head_med_ModelDefinition",
+                    "filename": "data/hd/character/enemy/overseer1/head_med.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_head_med_UnitPart",
+                    "part": "head",
+                    "variant": "med"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_head_hvy",
+            "id": 1735770268,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_head_hvy_ModelDefinition",
+                    "filename": "data/hd/character/enemy/overseer1/head_hvy.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_head_hvy_UnitPart",
+                    "part": "head",
+                    "variant": "hvy"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_rarm_lit",
+            "id": 2949636003,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_rarm_lit_ModelDefinition",
+                    "filename": "data/hd/character/enemy/overseer1/rarm_lit.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_rarm_lit_UnitPart",
+                    "part": "rarm",
+                    "variant": "lit"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_rarm_hvy",
+            "id": 900914418,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_rarm_hvy_ModelDefinition",
+                    "filename": "data/hd/character/enemy/overseer1/rarm_hvy.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_rarm_hvy_UnitPart",
+                    "part": "rarm",
+                    "variant": "hvy"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_larm_lit",
+            "id": 155122157,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_larm_lit_ModelDefinition",
+                    "filename": "data/hd/character/enemy/overseer1/larm_lit.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_larm_lit_UnitPart",
+                    "part": "larm",
+                    "variant": "lit"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_larm_hvy",
+            "id": 3887579817,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_larm_hvy_ModelDefinition",
+                    "filename": "data/hd/character/enemy/overseer1/larm_hvy.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_larm_hvy_UnitPart",
+                    "part": "larm",
+                    "variant": "hvy"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_special1_lit",
+            "id": 3785410490,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_special1_lit_ModelDefinition",
+                    "filename": "data/hd/character/enemy/overseer1/special1_lit.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_special1_lit_UnitPart",
+                    "part": "special1",
+                    "variant": "lit"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_special1_med",
+            "id": 3612236088,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_special1_med_ModelDefinition",
+                    "filename": "data/hd/character/enemy/overseer1/special1_med.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_special1_med_UnitPart",
+                    "part": "special1",
+                    "variant": "med"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_special1_hvy",
+            "id": 25048771,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_special1_hvy_ModelDefinition",
+                    "filename": "data/hd/character/enemy/overseer1/special1_hvy.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_special1_hvy_UnitPart",
+                    "part": "special1",
+                    "variant": "hvy"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_special2_lit",
+            "id": 2232289976,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_special2_lit_ModelDefinition",
+                    "filename": "data/hd/character/enemy/overseer1/special2_lit.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_special2_lit_UnitPart",
+                    "part": "special2",
+                    "variant": "lit"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_special2_med",
+            "id": 819202743,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_special2_med_ModelDefinition",
+                    "filename": "data/hd/character/enemy/overseer1/special2_med.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_special2_med_UnitPart",
+                    "part": "special2",
+                    "variant": "med"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_special2_hvy",
+            "id": 4185613306,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_special2_hvy_ModelDefinition",
+                    "filename": "data/hd/character/enemy/overseer1/special2_hvy.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_special2_hvy_UnitPart",
+                    "part": "special2",
+                    "variant": "hvy"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_base",
+            "id": 4256152306,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_base_ModelDefinition",
+                    "filename": "data/hd/character/enemy/overseer1/base.model",
+                    "visibleLayers": 9,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_lhand_lit",
+            "id": 2845893482,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_lhand_lit_ModelDefinition",
+                    "filename": "",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitAttachmentComponent",
+                    "name": "entity_lhand_lit_UnitAttachment",
+                    "filename": "",
+                    "overrideBoneName": "L_weapon_attach",
+                    "orientTowardBoneName": "",
+                    "attachmentTransform": {
+                        "type": "Transform",
+                        "name": "entity_lhand_lit_UnitAttachment_attachmentTransform",
+                        "translation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    },
+                    "attachmentStateMachineFilename": "",
+                    "part": "lhand",
+                    "variant": "lit"
+                }
+            ]
+        },
+		{
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1079187010,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_root_VfxDefinition",
+                    "filename": "data/hd/nickname/particles/super.particles",
+                    "hardKillOnDestroy": false
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "vfx4294962040_component_transform",
+                    "position": {
+                        "x": 0.0,
+                        "y": 9.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        }
+    ]
+}

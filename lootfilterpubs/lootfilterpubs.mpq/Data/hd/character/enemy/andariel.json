@@ -1,0 +1,344 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/character/enemy/andariel/torso.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/character/enemy/andariel/skeleton/andariel.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/character/common/common_cloud_threshold.texture"
+            },
+            {
+                "path": "data/hd/character/common/common_hair1_FLOW.texture"
+            },
+            {
+                "path": "data/hd/character/common/common_hair1_HRT.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_armor_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_armor_death_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_armor_death_NRM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_armor_death_ORM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_armor_KTINT.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_armor_new_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_armor_new_burned_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_armor_new_burned_NRM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_armor_new_burned_ORM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_armor_new_KTINT.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_armor_new_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_armor_new_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_armor_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_armor_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_body_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_body_death_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_body_death_NRM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_body_death_ORM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_body_KTINT.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_body_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_body_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_body_SSS.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_hair_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_hair_death_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_hair_KTINT.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_head_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_head_death_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_head_death_NRM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_head_death_ORM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_head_KTINT.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_head_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_head_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/andariel/textures/andariel_head_SSS.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/character/enemy/andariel/andariel_state_machine.json"
+            },
+            {
+                "path": "data/hd/missiles/andariel_spell.json"
+            },
+            {
+                "path": "data/hd/missiles/poison_nova.json"
+            }
+        ],
+        "variantdata": [
+            {
+                "path": "data/hd/character/enemy/andariel/andariel_variant.json"
+            }
+        ],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "andariel",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1671599436,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/character/enemy/andariel/andariel_state_machine.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/character/enemy/andariel/skeleton/andariel.skeleton"
+                },
+                {
+                    "type": "VariantDefinitionComponent",
+                    "name": "component_variant",
+                    "filename": "data/hd/character/enemy/andariel/andariel_variant.json"
+                },
+                {
+                    "type": "DefinitionPreloadComponent",
+                    "name": "Root_DefinitionPreloadComponent",
+                    "missiles": [
+                        {
+                            "type": "UnitDefinitionListEntry",
+                            "name": "Root_UnitDefinitionList_Entry1",
+                            "filename": "data/hd/missiles/poison_nova.json"
+                        },
+                        {
+                            "type": "UnitDefinitionListEntry",
+                            "name": "Root_UnitDefinitionList_Entry2",
+                            "filename": "data/hd/missiles/andariel_spell.json"
+                        }
+                    ],
+                    "overlays": [],
+                    "minions": []
+                },
+                {
+                    "type": "DeadAnimationSpeedOverrideComponent",
+                    "name": "entity_root_DeadAnimationSpeedOverrideComponent",
+                    "speed": 1.0
+                },
+                {
+                    "type": "IKComponent",
+                    "name": "entity_root_IK",
+                    "preset": {
+                        "type": "IKPreset",
+                        "name": "Blizzard_Quad_Biped",
+                        "footIKSetup": [
+                            {
+                                "type": "FootIKSetup",
+                                "name": "Blizzard_Quad_Biped_footIKSetup_0",
+                                "footBoneName": "leg_ankle2_00_L_JNT",
+                                "kneeBoneName": "leg_ankle_00_L_JNT",
+                                "hipBoneName": "leg_knee_00_L_JNT",
+                                "locationTrackName": "L_IK_position",
+                                "enabledTrackName": "L_FKIK",
+                                "hyperExtensionStart": 0.0,
+                                "hyperExtensionScale": 1.0,
+                                "defaultEnabled": false,
+                                "kneeRotationAxis": 0,
+                                "flipKneeRotationAxis": false
+                            },
+                            {
+                                "type": "FootIKSetup",
+                                "name": "Blizzard_Quad_Biped_footIKSetup_1",
+                                "footBoneName": "leg_ankle2_00_R_JNT",
+                                "kneeBoneName": "leg_ankle_00_R_JNT",
+                                "hipBoneName": "leg_knee_00_R_JNT",
+                                "locationTrackName": "R_IK_position",
+                                "enabledTrackName": "R_FKIK",
+                                "hyperExtensionStart": 0.0,
+                                "hyperExtensionScale": 1.0,
+                                "defaultEnabled": false,
+                                "kneeRotationAxis": 0,
+                                "flipKneeRotationAxis": false
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "LookAtAnimationControlComponent",
+                    "name": "entity_root_LookAtAnimationControl",
+                    "controlOverrides": [],
+                    "aimLayerName": "Aim_Head",
+                    "blendInTime": 0.25,
+                    "blendOutTime": 0.25
+                },
+                {
+                    "type": "AimLayersComponent",
+                    "name": "entity_root_AimLayers",
+                    "aimLayers": [
+                        {
+                            "type": "AimLayerSetup",
+                            "name": "entity_root_AimLayers_aimLayers_0",
+                            "layerName": "Aim_Head",
+                            "yawAnimationState": "HeadAim_Yaw",
+                            "yawOutOfRangeBehavior": 2,
+                            "yawAngleOffset": 0.0,
+                            "pitchAnimationState": "HeadAim_Pitch",
+                            "pitchOutOfRangeBehavior": 0,
+                            "pitchAngleOffset": 0.0,
+                            "aimLocationTrackName": "aim_location",
+                            "aimDampingFactor": 0.15,
+                            "aimTarget": 1
+                        },
+                        {
+                            "type": "AimLayerSetup",
+                            "name": "entity_root_AimLayers_aimLayers_1",
+                            "layerName": "Aim_Melee",
+                            "yawAnimationState": "",
+                            "yawOutOfRangeBehavior": 2,
+                            "yawAngleOffset": 0.0,
+                            "pitchAnimationState": "MeleeAim_Pitch",
+                            "pitchOutOfRangeBehavior": 0,
+                            "pitchAngleOffset": 0.0,
+                            "aimLocationTrackName": "aim_location",
+                            "aimDampingFactor": 0.3,
+                            "aimTarget": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso",
+            "id": 2526923268,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_torso",
+                    "filename": "data/hd/character/enemy/andariel/torso.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+          "type": "Entity",
+          "name": "entity_root",
+          "id": 1079187010,
+          "components": [
+              {
+                  "type": "VfxDefinitionComponent",
+                  "name": "entity_root_VfxDefinition",
+                  "filename": "data/hd/nickname/particles/boss.particles",
+                  "hardKillOnDestroy": false
+              },
+              {
+                  "type": "TransformDefinitionComponent",
+                  "name": "vfx4294962040_component_transform",
+                  "position": {
+                      "x": 0.0,
+                      "y": 13.0,
+                      "z": 0.0
+                  },
+                  "orientation": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 1.0
+                  },
+                  "scale": {
+                      "x": 1.0,
+                      "y": 1.0,
+                      "z": 1.0
+                  },
+                  "inheritOnlyPosition": false
+              }
+          ]
+      }
+    ]
+}

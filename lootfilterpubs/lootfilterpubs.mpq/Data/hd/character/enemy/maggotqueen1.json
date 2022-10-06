@@ -1,0 +1,310 @@
+{
+    "dependencies": {
+        "particles": [
+            {
+                "path": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Point_Ichor.particles"
+            },
+            {
+                "path": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Slash_Ichor.particles"
+            }
+        ],
+        "models": [
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/torso.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/skeleton/maggotqueen1.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/character/common/common_cloud_threshold.texture"
+            },
+            {
+                "path": "data/hd/character/common/common_ktint.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/textures/maggotqueen_lowerbody_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/textures/maggotqueen_lowerbody_death_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/textures/maggotqueen_lowerbody_death_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/textures/maggotqueen_lowerbody_death_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/textures/maggotqueen_lowerbody_KTINT.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/textures/maggotqueen_lowerbody_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/textures/maggotqueen_lowerbody_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/textures/maggotqueen_shell_alb.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/textures/maggotqueen_shell_death_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/textures/maggotqueen_shell_death_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/textures/maggotqueen_shell_death_orm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/textures/maggotqueen_shell_KTINT.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/textures/maggotqueen_shell_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/textures/maggotqueen_shell_orm.texture"
+            },
+            {
+                "path": "data/hd/vfx/textures/fluid/T_FX_fluid_blood_spray_02_NRM.texture"
+            },
+            {
+                "path": "data/hd/vfx/textures/fluid/T_FX_fluid_blood_tile_04_NRM.texture"
+            }
+        ],
+        "physics": [
+            {
+                "path": "data/hd/env/model/act2/maggot/act2_maggot_queen/maggot_queen_collision.physics"
+            }
+        ],
+        "json": [
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/maggotqueen1_state_machine.json"
+            },
+            {
+                "path": "data/hd/missiles/goo_hit.json"
+            },
+            {
+                "path": "data/hd/missiles/sand_maggot_goo_spit.json"
+            }
+        ],
+        "variantdata": [
+            {
+                "path": "data/hd/character/enemy/maggotqueen1/maggotqueen1_variant.json"
+            }
+        ],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "maggotqueen1",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 3022364243,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/character/enemy/maggotqueen1/maggotqueen1_state_machine.json",
+                    "doNotInheritRotation": true,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3007058,
+                        "z": 0.0,
+                        "w": 0.953716934
+                    },
+                    "doNotUseHDHeight": true,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/character/enemy/maggotqueen1/skeleton/maggotqueen1.skeleton"
+                },
+                {
+                    "type": "VariantDefinitionComponent",
+                    "name": "component_variant",
+                    "filename": "data/hd/character/enemy/maggotqueen1/maggotqueen1_variant.json"
+                },
+                {
+                    "type": "DefinitionPreloadComponent",
+                    "name": "Root_DefinitionPreloadComponent",
+                    "missiles": [
+                        {
+                            "type": "UnitDefinitionListEntry",
+                            "name": "Root_UnitDefinitionList_Entry1",
+                            "filename": "data/hd/missiles/sand_maggot_goo_spit.json"
+                        },
+                        {
+                            "type": "UnitDefinitionListEntry",
+                            "name": "Root_UnitDefinitionList_Entry2",
+                            "filename": "data/hd/missiles/goo_hit.json"
+                        }
+                    ],
+                    "overlays": [],
+                    "minions": []
+                },
+                {
+                    "type": "DamageFXComponent",
+                    "name": "entity_root_DamageFX",
+                    "vfxSpawnBones": [],
+                    "attackAttemptVfxOverrides": {},
+                    "disableAttemptVfx": false,
+                    "attackSuccessVfxOverrides": {
+                        "type": "AttackVFXTable",
+                        "name": "AttackSuccess_Ichor",
+                        "rules": [
+                            {
+                                "type": "AttackVFXRule",
+                                "name": "AttackSuccess_Ichor_rules_0",
+                                "acceptedHitClasses": 828,
+                                "acceptedVictims": 15,
+                                "acceptedBloodTypes": 7,
+                                "vfxFile": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Slash_Ichor.particles",
+                                "soundId": "player_impact_gore_ichor_hd2"
+                            },
+                            {
+                                "type": "AttackVFXRule",
+                                "name": "AttackSuccess_Ichor_rules_1",
+                                "acceptedHitClasses": 7362,
+                                "acceptedVictims": 15,
+                                "acceptedBloodTypes": 7,
+                                "vfxFile": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Point_Ichor.particles",
+                                "soundId": "player_impact_gore_ichor_hd2"
+                            }
+                        ],
+                        "defaultVfxFile": "",
+                        "defaultSoundId": "player_impact_gore_ichor_hd2"
+                    },
+                    "disableSuccessVfx": false,
+                    "attackFailVfxOverrides": {},
+                    "disableFailVfx": false
+                },
+                {
+                    "type": "FidgetAnimationComponent",
+                    "name": "entity_root_FidgetAnimation",
+                    "neutralSet": {
+                        "type": "FidgetAnimationSet",
+                        "name": "entity_root_FidgetAnimation_neutralSet",
+                        "options": [
+                            {
+                                "type": "FidgetAnimationOption",
+                                "name": "entity_root_FidgetAnimation_neutralSet_options_0",
+                                "stateName": "Fidget01",
+                                "weight": 1.0,
+                                "cooldownMin": 0.25,
+                                "cooldownMax": 0.5
+                            }
+                        ],
+                        "firstFidgetDelayMin": 0.5,
+                        "firstFidgetDelayMax": 0.75,
+                        "subsequentFidgetDelayMin": 1.0,
+                        "subsequentFidgetDelayMax": 2.0
+                    },
+                    "townNeutralSet": {},
+                    "frontendSet": {},
+                    "characterSelectSet": {}
+                },
+                {
+                    "type": "PhysicsBodyDefinitionComponent",
+                    "name": "entity_root_PhysicsBodyDefinition",
+                    "bodytype": "static",
+                    "fixturedefs": [
+                        {
+                            "type": "PhysicsFixtureDefinition",
+                            "name": "maggot_queen_collision_PhysicsBodyDefinition_fixturedefs002_1",
+                            "shapetype": {
+                                "type": "PhysicsFileDefinition",
+                                "name": "maggot_queen_collision_PhysicsBodyDefinition_fixturedefs002_1_shapetype",
+                                "filename": "data/hd/env/model/act2/maggot/act2_maggot_queen/maggot_queen_collision.physics"
+                            },
+                            "friction": 0.6,
+                            "restitution": 0.0,
+                            "rollingresistance": 0.2,
+                            "impulsefactor": 1.0,
+                            "explosionfactor": 1.0,
+                            "explosionliftfactor": 1.0,
+                            "windfactor": 0.0,
+                            "dragfactor": 0.0,
+                            "liftfactor": 1.0,
+                            "density": 37.5,
+                            "boneindex": -1
+                        }
+                    ],
+                    "filter": "floor",
+                    "allowTransition": true,
+                    "removeOnDeath": false,
+                    "lineardamping": 0.0,
+                    "angulardamping": 0.0,
+                    "gravityscale": 1.0
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso",
+            "id": 3877687819,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_torso",
+                    "filename": "data/hd/character/enemy/maggotqueen1/torso.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1079187010,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_root_VfxDefinition",
+                    "filename": "data/hd/nickname/particles/super.particles",
+                    "hardKillOnDestroy": false
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "vfx4294962040_component_transform",
+                    "position": {
+                        "x": 0.0,
+                        "y": 9.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        }
+    ]
+}
