@@ -7,7 +7,7 @@
 		],
 		"models": [
 			{
-				"path": "data/hd/items/misc/rune/vex_rune/vex_rune.model"
+				"path": "data/hd/items/misc/rune/sur_rune/sur_rune.model"
 			}
 		],
 		"skeletons": [
@@ -18,13 +18,13 @@
 		"animations": [],
 		"textures": [
 			{
-				"path": "data/hd/items/misc/rune/vex_rune/misc_vex_rune_ALB.texture"
+				"path": "data/hd/items/misc/rune/sur_rune/misc_sur_rune_ALB.texture"
 			},
 			{
-				"path": "data/hd/items/misc/rune/vex_rune/misc_vex_rune_NRM.texture"
+				"path": "data/hd/items/misc/rune/sur_rune/misc_sur_rune_NRM.texture"
 			},
 			{
-				"path": "data/hd/items/misc/rune/vex_rune/misc_vex_rune_ORM.texture"
+				"path": "data/hd/items/misc/rune/sur_rune/misc_sur_rune_ORM.texture"
 			}
 		],
 		"physics": [],
@@ -38,12 +38,12 @@
 		"other": []
 	},
 	"type": "UnitDefinition",
-	"name": "vex_rune",
+	"name": "sur_rune",
 	"entities": [
 		{
 			"type": "Entity",
 			"name": "entity_root",
-			"id": 2426448561,
+			"id": 3737366211,
 			"components": [
 				{
 					"type": "UnitRootComponent",
@@ -92,12 +92,12 @@
 		{
 			"type": "Entity",
 			"name": "entity_model",
-			"id": 1071332909,
+			"id": 2315861416,
 			"components": [
 				{
 					"type": "ModelDefinitionComponent",
-					"name": "component_model_vex_rune",
-					"filename": "data/hd/items/misc/rune/vex_rune/vex_rune.model",
+					"name": "component_model_sur_rune",
+					"filename": "data/hd/items/misc/rune/sur_rune/sur_rune.model",
 					"visibleLayers": 1,
 					"lightMask": 19,
 					"shadowMask": 3,
